@@ -1,0 +1,112 @@
+.header{
+    height: 83px;
+    display: flex;
+    align-items: center;
+    background-color:$color-grey-dark;
+    justify-content: center;
+    position: relative;
+    padding: 0 2rem;
+   
+    &__nav{
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+    &__logo{
+        display: inline-flex;
+    }
+    &__list{
+        display: flex;
+        list-style: none;
+        margin-left: auto;
+        @media only screen and (max-width:$bp-xsmall) {
+            display: none;
+         }
+    }
+    &__item{
+        font-size: 1.6rem;
+        font-weight: 500;
+        margin-right: 5rem;
+        @media screen and (max-width:$bp-small){
+           margin-right: 3rem;
+         }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+   
+}
+.menu-icon{
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    transform: translateY(-50%);
+    button{
+        border: none;
+        border-radius: 0;
+        width: 4rem;
+        height: 2px;
+        background-color: #fff;
+        color: #eed6d6;
+
+
+    &::before,&::after{
+        width: 4rem;
+        height: 2px;
+        content: "";
+        background-color: #fff;
+        display: block;
+    }
+    &::before{
+        transform: translateY(-1.2rem);
+    }
+    &::after{
+        transform: translateY(1.2rem);
+    }
+    }
+
+    @media screen and (max-width:$bp-xsmall) {
+        display: block;
+    }
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba($color-grey-dark,1);
+    overflow-x: hidden;
+    transition: 0.5s;
+    text-align:center;
+    a {
+        padding:1rem;
+        text-decoration: none;
+        font-size: 3rem;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      
+      }
+      .closebtn {
+        position: absolute;
+        top:2rem;
+        right: 2rem;
+        font-size: 36px;
+      }
+  }
+  
+  
+  
+  
+  
+
+

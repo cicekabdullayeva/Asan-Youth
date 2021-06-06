@@ -1,0 +1,28 @@
+.main-slider{
+    height: 84.7rem;
+    background-image:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5))  ,url(../img/mainimage.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-left: 3rem;
+    padding-right:4rem;
+    @media screen and (max-width:$bp-xsmall){
+        padding-right: 3rem;
+    }
+}
+.slider-content{
+    color:#fff;
+    width: 60%;
+
+    @media screen and (max-width:$bp-medium-small){
+        width: 100%;
+    }
+    // width: 50%;
+    // position: absolute;
+    // top: 50%;
+    // left:7.5%;
+    // transform: translateY(-50%);
+}

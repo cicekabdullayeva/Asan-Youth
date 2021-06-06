@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asan Youth</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/in-view.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="header__nav max-width">
+                <a href="#"href="index.html" class="header__logo">
+                    <img src="/img/icon.png" alt="Asan Youth">
+                </a>
+                <ul class="header__list" id="headerList">
+                    <li class="header__item">
+                        <a href="#">Haqqımızda</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#">Xəbərlər</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="allproject.html">Layihələr</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#">Əlaqə</a>
+                    </li>
+                </ul>
+                <button class="btn">
+                    <svg class="icon-search">
+                        <use xlink:href="img/symbol-defs.svg#icon-magnifying-glass"></use>
+                    </svg>
+                </button>
+            </nav>
+            <div class="menu-icon">
+                <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                    <button type="button" onclick="openNav()"> </button>
+                </a>
+            </div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Haqqımızda</a>
+                <a href="#">Xəbərlər</a>
+                <a href="#">Layihələr</a>
+                <a href="#">Əlaqə</a>
+            </div>
+        </header>
+        <main>
+            <!-- Slider -->
+            <section class="main-slider">
+                <div class="max-width flex justify-start ">
+                    <div class="slider-content slider">
+                        <h2 class="heading-2 mb-small">Generator on the Internet</h2>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporLorem ipsum
+                            dolor
+                            sit amet, consectetur adipiLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <a href="#" class="button-link">Ətraflı</a>
+
+                    </div>
+                    <div class="slider-content slider">
+                        <h2 class="heading-2 mb-small">Generator slide 2</h2>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporLorem ipsum
+                            dolor
+                            sit amet, consectetur adipiLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <a href="#" class="button-link">Ətraflı 2</a>
+                    </div>
+                </div>
+                <div class="buttons">
+
+                    <button class="button" onclick="plusDivs(1)">
+                        <svg class="button__icon">
+                            <use xlink:href="img/symbol-defs.svg#icon-chevron-thin-left"></use>
+                        </svg>
+                    </button>
+                    <button class="button" onclick="plusDivs(-1)">
+                        <svg class="button__icon">
+                            <use xlink:href="img/symbol-defs.svg#icon-chevron-thin-right"></use>
+                        </svg>
+                    </button>
+                </div>
+
+            </section>
+            <!-- Map section -->
+            <section class="map-container">
+                <img src="img/xerite akt.svg" class="max-width flex" alt="azerbaycan xeritsi">
+            </section>
+            <!-- Volunter count -->
+            <section class="statics">
+                <div class="counter ">
+                    <div class="counter__project">
+                        <h2 class="counter__heading" id="value1">20+</h2>
+                        <p class="counter__text">Layihə sayı</p>
+                    </div>
+                    <div class="counter__volunter">
+                        <h2 class="counter__heading" id="value2">100+</h2>
+                        <p class="counter__text">Könüllü sayı</p>
+                    </div>
+                </div>
+            </section>
+            <!-- NEWS section -->
+            <section class="news-container">
+                <div class="news-content max-width">
+                    <a href="#">
+                        <h2 class="section-heading mb-medium">Xəbərlər</h2>
+                    </a>
+                    <div class="news-cards multiple-items max-width">
+
+                        <div class="card-container">
+
+                            <img src="img/Bitmap.png" alt="" class="card-img">
+
+                            <div class="card-body">
+                                <h3 class="card-heading">Country to pop</h3>
+                                <p class="card-text">
+                                    There are many variations of passagesggggbfgbfg
+                                    of Lorem Ipsum available, but theggggggfgbfgng
+                                    majority have
+                                </p>
+                                <a href="#" class="readmore">Ətraflı</a>
+                            </div>
+                        </div>
+
+                        <div class="card-container">
+                            <img src="img/Bitmap.png" alt="" class="card-img">
+                            <div class="card-body">
+                                <h3 class="card-heading mb-medium">Country to pop</h3 class="card-heading">
+                                <p class="card-text">
+                                    There are many variations of passagesggggbfgbfg
+                                    of Lorem Ipsum available, but theggggggfgbfgng
+                                    majority have
+                                </p>
+                                <a href="#" class="readmore">Ətraflı</a>
+                            </div>
+                        </div>
+
+                        <div class="card-container">
+
+                            <img src="img/Bitmap.png" alt="" class="card-img">
+
+                            <div class="card-body">
+                                <h3 class="card-heading">Country to pop</h3 class="card-heading">
+                                <p class="card-text">
+                                    There are many variations of passagesggggbfgbfg
+                                    of Lorem Ipsum available, but theggggggfgbfgng
+                                    majority have
+                                </p>
+                                <a href="#" class="readmore">Ətraflı</a>
+                            </div>
+                        </div>
+
+                        <div class="card-container">
+
+                            <img src="img/Bitmap.png" alt="" class="card-img">
+
+                            <div class="card-body">
+                                <h3 class="card-heading">Country to pop</h3 class="card-heading">
+                                <p class="card-text">
+                                    There are many variations of passagesggggbfgbfg
+                                    of Lorem Ipsum available, but theggggggfgbfgng
+                                    majority have
+                                </p>
+                                <a href="#" class="readmore">Ətraflı</a>
+                            </div>
+                        </div>
+
+                        <div class="card-container">
+
+                            <img src="img/Bitmap.png" alt="" class="card-img">
+
+                            <div class="card-body">
+                                <h3 class="card-heading">Country to pop</h3 class="card-heading">
+                                <p class="card-text">
+                                    There are many variations of passagesggggbfgbfg
+                                    of Lorem Ipsum available, but theggggggfgbfgng
+                                    majority have
+                                </p>
+                                <a href="#" class="readmore">Ətraflı</a>
+                            </div>
+                        </div>
+
+                        <div class="card-container">
+
+                            <img src="img/Bitmap.png" alt="" class="card-img">
+
+                            <div class="card-body">
+                                <h3 class="card-heading">Country to pop</h3 class="card-heading">
+                                <p class="card-text">
+                                    There are many variations of passagesggggbfgbfg
+                                    of Lorem Ipsum available, but theggggggfgbfgng
+                                    majority have
+                                </p>
+                                <a href="#" class="readmore">Ətraflı</a>
+                            </div>
+                        </div>
+
+                        <div class=" card-container">
+
+                            <img src="img/Bitmap.png" alt="" class="card-img">
+
+                            <div class="card-body">
+                                <h3 class="card-heading">Country to pop</h3>
+                                <p class="card-text">
+                                    There are many variations of passagesggggbfgbfg
+                                    of Lorem Ipsum available, but theggggggfgbfgng
+                                    majority have
+                                </p>
+                                <a href="#" class="readmore">Ətraflı</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <a href="#" class="button-link mt-medium">
+                        Hamsına bax
+                    </a>
+                </div>
+            </section>
+            <!-- Youtube section -->
+            <section class="youtube-container">
+                <a href="https://www.youtube.com/watch?v=fNFzfwLM72c" class="youtube__link"></a>
+
+                <p class="youtube__heading mb-medium">Necə "ASAN Könüllüsü" ola bilərəm?</p>
+                <span class="youtube__logo">
+                    <img src="img/youtubelogo.svg" alt="Asan könüllü">
+                </span>
+                <a href="#" class="button-link">Bizə qoşul!</a>
+
+
+            </section>
+            <!-- History section -->
+            <section class="history-container">
+                <div class="news-content">
+                    <a href="#">
+                        <h2 class="history__heading mb-medium">Tarixdə BU GÜN - <span id="historydate"
+                                class="history__date"></span> </h2>
+                    </a>
+                    <div class="news-cards multiple-items max-width">
+                        <div class="card-container">
+                            <img src="img/historyimg.svg" alt="" class="card-img">
+                            <div class="card-body">
+                                <a href="#" class="button-link ">News</a>
+                                <h3 class="card-heading mt-small ">A Yearly Roundup with evolve</h3>
+                                <p class="card-text">2019 has been an exciting year for2019 has been an exciting year
+                                    for evolve with its new branding and strategies. With our vision broadened from
+                                    initiating multi-stakeholder dialogue and addressing</p>
+                                <a href="#" class="readmore">Read more</a>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <img src="img/historyimg.svg" alt="" class="card-img">
+                            <div class="card-body">
+                                <a href="#" class="button-link ">News</a>
+                                <h3 class="card-heading mt-small ">A Yearly Roundup with evolve</h3>
+                                <p class="card-text">2019 has been an exciting year for2019 has been an exciting year
+                                    for evolve with its new branding and strategies. With our vision broadened from
+                                    initiating multi-stakeholder dialogue and addressing</p>
+                                <a href="" class="readmore">Read more</a>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <img src="img/historyimg.svg" alt="" class="card-img">
+                            <div class="card-body">
+                                <a href="#" class="button-link ">News</a>
+                                <h3 class="card-heading mt-small ">A Yearly Roundup with evolve</h3>
+                                <p class="card-text">2019 has been an exciting year for2019 has been an exciting year
+                                    for evolve with its new branding and strategies. With our vision broadened from
+                                    initiating multi-stakeholder dialogue and addressing</p>
+                                <a href="" class="readmore">Read more</a>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <img src="img/historyimg.svg" alt="" class="card-img">
+                            <div class="card-body">
+                                <a href="#" class="button-link ">News</a>
+                                <h3 class="card-heading mt-small ">A Yearly Roundup with evolve</h3>
+                                <p class="card-text">2019 has been an exciting year for2019 has been an exciting year
+                                    for evolve with its new branding and strategies. With our vision broadened from
+                                    initiating multi-stakeholder dialogue and addressing</p>
+                                <a href="" class="readmore">Read more</a>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <img src="img/historyimg.svg" alt="" class="card-img">
+                            <div class="card-body">
+                                <a href="#" class="button-link ">News</a>
+                                <h3 class="card-heading mt-small ">A Yearly Roundup with evolve</h3>
+                                <p class="card-text">2019 has been an exciting year for2019 has been an exciting year
+                                    for evolve with its new branding and strategies. With our vision broadened from
+                                    initiating multi-stakeholder dialogue and addressing</p>
+                                <a href="" class="readmore">Read more</a>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <img src="img/historyimg.svg" alt="" class="card-img">
+                            <div class="card-body">
+                                <a href="#" class="button-link ">News</a>
+                                <h3 class="card-heading mt-small ">A Yearly Roundup with evolve</h3>
+                                <p class="card-text">2019 has been an exciting year for2019 has been an exciting year
+                                    for evolve with its new branding and strategies. With our vision broadened from
+                                    initiating multi-stakeholder dialogue and addressing</p>
+                                <a href="" class="readmore">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="button-link history-btn mt-medium">Hamsına bax</a>
+                </div>
+
+            </section>
+            <!-- Logo section -->
+            <section class="logo-container">
+                <ul class="logo__list max-width">
+                    <li class="logo__item">
+                        <img src="img/logotext.png" alt="Logo">
+                    </li>
+                    <li class="logo__item">
+                        <img src="img/logotext.png" alt="Logo">
+                    </li>
+                    <li class="logo__item">
+                        <img src="img/logotext.png" alt="Logo">
+                    </li>
+                    <li class="logo__item">
+                        <img src="img/logotext.png" alt="Logo">
+                    </li>
+                    <li class="logo__item">
+                        <img src="img/logotext.png" alt="Logo">
+                    </li>
+                    <li class="logo__item">
+                        <img src="img/logotext.png" alt="Logo">
+                    </li>
+                </ul>
+
+            </section>
+
+        </main>
+        <footer class="footer">
+            <div class="footer-top max-width">
+                <div class="footer__logo">
+                    <a href="#">
+                        <img src="img/logo akt ag.png surəti copy (1).png" alt="Asan Youth">
+                    </a>
+                </div>
+
+                <div class="footer__about">
+                    <h3 class="heading-3 mb-medium">Haqqımızda</h3>
+                    <ul>
+                        <li class="footer__item"><a href="#">Təşkilat haqqında məlumat</a></li>
+                        <li class="footer__item"><a href="#">Struktur</a></li>
+                        <li class="footer__item"><a href="#">Komandamız</a></li>
+                        <li class="footer__item"><a href="#">Trəfdaşlarımız</a></li>
+                    </ul>
+                </div>
+                <div class="footer__news">
+                    <h3 class="heading-3 mb-medium">Xəbərlər</h3>
+                    <ul>
+                        <li class="footer__item"><a href="#">Fəaliyyətimiz</a></li>
+                        <li class="footer__item"><a href="#">Mediada ASAN könüllüləri</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer__project">
+                    <h3 class="heading-3 mb-medium">Layihələr</h3>
+                </div>
+
+                <div class="footer__contact">
+                    <h3 class="heading-3 mb-medium">Əlaqə</h3>
+                </div>
+                <div class="footer__information">
+                    <select name="dil" id="" class="select-info mb-medium">
+                        <option value="">
+                            Azərbaycan dili</option>
+                    </select>
+                    <ul>
+                        <li>
+                            <span>
+                                <svg class="footer__icon">
+                                    <use xlink:href="img/symbol-defs.svg#icon-phone"></use>
+                                </svg>
+                            </span>
+                            +994 12 444 74 75
+                        </li>
+                        <li>
+                            <span>
+                                <svg class="footer__icon">
+                                    <use xlink:href="img/symbol-defs.svg#icon-mail"></use>
+                                </svg>
+                            </span>
+                            info@asanyouth.az
+                        </li>
+                        <li>
+                            <span>
+                                <svg class="footer__icon">
+                                    <use xlink:href="img/symbol-defs.svg#icon-location-pin"></use>
+                                </svg>
+                            </span>
+                            36 Akademik Həsən Əliyev küçəsi, <br>
+                            Bakı, 1078, Azərbaycan
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom max-width">
+                <img src="img/qrkod.svg" alt="Asan Youth" class="qrcode">
+
+                <div class="social-icons">
+                    <a href="#" class="social-icon">
+                        <svg width="20" height="20 " style="fill: #2C2C2C;">
+                            <use xlink:href="img/symbol-defs.svg#icon-facebook">
+                            </use>
+                        </svg>
+                    </a >
+                    <a href="#" class="social-icon">
+                        <img src="img/Twitter.svg" alt="">
+                    </a >
+                    <a href="#" class="social-icon">
+                        <img src="img/Group 8.svg" alt="">
+                    </a >
+                    <a href="#" class="social-icon">
+                        <img src="img/YouTube (1).svg" alt="">
+                    </a >
+                </div>
+            </div>
+
+        </footer>
+
+    </div>
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!-- <script src="js/slick.js"></script> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script src="/js/main.js"></script>
+
+</body>
+
+</html>

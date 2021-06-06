@@ -1,0 +1,71 @@
+.section-heading{
+    font-size: 3.5rem;
+    font-weight: 400;
+    color:$color-blue;
+}
+.heading-2{
+    font-size: 6.5rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #fff;
+}
+.heading-3{
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.7;
+    
+    @media screen and (max-width:$bp-small){
+        text-align: center;
+    }
+
+  
+}
+.paragraph{
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height:3rem;
+    margin-bottom: 4.5rem;
+}
+.mb-big{
+    margin-bottom: 4.8rem;
+}
+.mb-medium{
+    margin-bottom: 3rem;
+
+    @media screen and (max-width:$bp-small){
+        margin-bottom: 2rem;
+    }
+}
+.mb-small{
+    margin-bottom: 1.8rem;
+    @media screen and (max-width:$bp-small){
+        margin-bottom: 1rem;
+    }
+}
+.mt-medium{
+    margin-top: 4.3rem;
+    @media screen and (max-width:$bp-small){
+        margin-top: 3.3rem;
+    }
+}
+.mt-small{
+    margin-top:2.5rem;
+    @media screen and (max-width:$bp-small){
+        margin-top: 1.5rem;
+    }
+}
+.mx-auto{
+    margin: 0 auto;
+}
+.bg-opacity{
+    background-color: rgba(0, 0, 0,.5);
+    z-index: 50;
+}
+.py-5{
+    padding: 5rem 0;
+}
+.px-2{
+    padding-left:  2rem;
+    padding-right: 2rem;
+}

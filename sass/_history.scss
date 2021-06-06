@@ -1,0 +1,45 @@
+.history{
+    &-container{
+        background-color: $color-blue;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+         
+        .readmore{
+            justify-content: flex-start;
+        }
+        .card-text{
+            color: #9B9B9B;
+        }
+    }
+    &__heading{
+        font-size: 3.5rem;
+        font-weight: 400;
+        line-height: 5rem;
+        text-align: center;
+    }
+    &__date{
+        font-weight: 600;
+    }
+    &-btn{
+        color: $color-blue;
+        background-color: #fff;
+    }
+}
+//logo section syling
+.logo{
+    &-container{
+        padding: 5rem 2rem;
+        background-color: $color-grey-light;
+    }
+    &__list{
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+        grid-gap: 3rem;
+    }
+    &__item{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
